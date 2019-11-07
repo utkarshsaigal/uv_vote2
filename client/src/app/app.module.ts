@@ -18,6 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { SignupComponent } from './signup/signup.component'
 import {FormsModule} from '@angular/forms'
 import { UsersService } from './users.service';
+import { VotingformComponent } from './votingform/votingform.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +44,10 @@ import { UsersService } from './users.service';
     LoginComponent,
 
     SignupComponent,
+
+    VotingformComponent,
+
+
 
     
 

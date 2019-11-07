@@ -9,6 +9,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { VotingformComponent } from './votingform/votingform.component';
 
 const routes: Routes = [
   
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'contactus',component:ContactusComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
+  {path:'votingform',component:VotingformComponent},
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
