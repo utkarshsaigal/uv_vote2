@@ -7,7 +7,7 @@ import { UsersService } from '../users.service';
   styleUrls: ['./votingform.component.css']
 })
 export class VotingformComponent implements OnInit {
-
+  
   constructor(private us :UsersService) { }
 
   ngOnInit() {

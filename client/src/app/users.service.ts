@@ -73,7 +73,7 @@ export class UsersService {
           }
           else{
 
-            this.router.navigateByUrl(`/about`);
+            this.router.navigateByUrl(`/votingform`);
           }
         });
     }
