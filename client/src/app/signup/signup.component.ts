@@ -18,8 +18,13 @@ export class SignupComponent implements OnInit {
   }
   
   addData() {
+    
+    if(this.name.length<10)
+    {
+      alert('name  must be atleast 10 characters long');
+  }
     if(this.email!=null)
-    {alert('email must have atleast special character like (!,@,#,$,%,^,&,*)');
+    {alert('email must have  @');
   }
     if(this.password.length<10)
     {

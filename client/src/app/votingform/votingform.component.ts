@@ -7,10 +7,16 @@ import { UsersService } from '../users.service';
   styleUrls: ['./votingform.component.css']
 })
 export class VotingformComponent implements OnInit {
-  
+  VoterId ;
+  Votersname;
+
   constructor(private us :UsersService) { }
 
   ngOnInit() {
+  }
+  addData(){
+
+alert('successfully voted , happy voting !! ');
   }
 
 }
